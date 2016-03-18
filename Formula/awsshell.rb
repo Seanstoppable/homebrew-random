@@ -1,8 +1,8 @@
 class Awsshell < Formula
   desc "AWS Shell"
   homepage "https://github.com/awslabs/aws-shell"
-  url "https://github.com/awslabs/aws-shell/archive/0.0.1.tar.gz"
-  sha256 "6b4f78843af3a61dd0ba44cd701f36718ca8bd5ac66bdc692740685853968e0b"
+  url "https://github.com/awslabs/aws-shell/archive/0.1.0.tar.gz"
+  sha256 "6ffe6057c23d2710bfcda57b9b2d933185b9d72ce1ad0d668e9a40a47ad8d658"
 
   depends_on "awscli"
 
@@ -12,13 +12,13 @@ class Awsshell < Formula
   end
 
   resource "aws-cli" do
-    url "https://pypi.python.org/packages/source/a/awscli/awscli-1.9.15.tar.gz"
-    sha256 "21ce3edd76d8ad6ebb6edab212f7b0fb501f75f13236f931bab5bad6976484fa"
+    url "https://pypi.python.org/packages/source/a/awscli/awscli-1.9.21.tar.gz"
+    sha256 "b9381c0e180e440e663375ef8066f901aa72b280d0c549b7fc71ded005c064ce"
   end
 
   resource "botocore" do
-    url "https://pypi.python.org/packages/source/b/botocore/botocore-1.3.15.tar.gz"
-    sha256 "7cc7e9c03d1c15550c71806bc0fb41ee7291b4051d5ca6b7d93d15891bac04ea"
+    url "https://pypi.python.org/packages/source/b/botocore/botocore-1.3.21.tar.gz"
+    sha256 "ca3a5bcf0e1504137bc8b4322ae305e1b0e3b85e76480df9f79a4f3b39517788"
   end
 
   resource "boto3" do

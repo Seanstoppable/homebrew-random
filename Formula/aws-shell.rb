@@ -1,4 +1,4 @@
-class Awsshell < Formula
+class AwsShell < Formula
   desc "AWS Shell"
   homepage "https://github.com/awslabs/aws-shell"
   url "https://github.com/awslabs/aws-shell/archive/0.1.0.tar.gz"
